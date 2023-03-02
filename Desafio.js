@@ -27,4 +27,15 @@ function desafio1() {
   }
 
   console.log(desafio2(5)); 
-  // Informe o numero que deseja consultar na função, o Output como 5 de exemplo é "A resposta do desafio 2 é que: 5 pertence à sequência de Fibonacci"
+  // Informe o numero que deseja consultar na função acima, o Output como 5 de exemplo é "A resposta do desafio 2 é que: 5 pertence à sequência de Fibonacci"
+
+  function desafio5(string) {
+    let stringInvertida = "";
+    for (let i = string.length - 1; i >= 0; i-=1) {
+      stringInvertida += string[i];
+    }
+    return `A resposta do desafio 5 é: ${stringInvertida}`;
+  }
+  
+  console.log(desafio5("Target")); 
+  // Informe a string que deseja inverter no console acima, o Output com o "Target" de exemplo é "A resposta do desafio 5 é: tegraT"
